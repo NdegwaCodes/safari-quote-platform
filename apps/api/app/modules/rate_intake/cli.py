@@ -80,7 +80,7 @@ async def run(path: str, *, commit: bool, limit: int) -> int:
             print(
                 f"\n-- VAT POSITION UNSTATED on {total} rows across "
                 f"{len(report.vat_unstated)} properties.\n"
-                "   Read as VAT-inclusive, per the decision of 2026-09-02. These "
+                "   Read as VAT-inclusive by default. These "
                 "sheets say\n   nothing either way, so if one is actually "
                 "exclusive its rates under-charge\n   by 16% and the quotation's "
                 "VAT line is untrue. Listed so it stays visible."
